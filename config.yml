@@ -1,0 +1,34 @@
+baseURL: "https://arfanrafeek.com/"
+title: "Arfan Rafeek | Accountant"
+theme: "PaperMod"
+
+params:
+  env: production
+  title: "Arfan Rafeek"
+  description: "Accountant Portfolio"
+  author: "Arfan Rafeek"
+
+  # Minimal PaperMod profile mode
+  profileMode:
+    enabled: true
+    title: "Arfan Rafeek"
+    subtitle: "Accountant | United Kingdom"
+    imageUrl: ""
+    imageTitle: "Arfan Rafeek"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/arfan-rafeek"
+      - name: "Email"
+        url: "mailto:me@arfanrafeek.com"
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/arfan-rafeek"
+    - name: "email"
+      url: "mailto:me@arfanrafeek.com"
+
+  homeInfoParams:
+    Title: ""
+    Content: ""
