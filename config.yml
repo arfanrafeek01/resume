@@ -7,8 +7,13 @@ params:
   title: "Arfan Rafeek"
   description: "Accountant Portfolio"
   author: "Arfan Rafeek"
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
 
-  # Minimal PaperMod profile mode
+  # Profile card on the root domain (https://arfanrafeek.com/)
   profileMode:
     enabled: true
     title: "Arfan Rafeek"
@@ -18,8 +23,10 @@ params:
     imageWidth: 120
     imageHeight: 120
     buttons:
-      - name: "LinkedIn"
-        url: "https://www.linkedin.com/in/arfan-rafeek"
+      - name: "Resume"
+        url: "/resume/"
+      - name: "Blog"
+        url: "/posts/"
       - name: "Email"
         url: "mailto:me@arfanrafeek.com"
 
@@ -29,6 +36,14 @@ params:
     - name: "email"
       url: "mailto:me@arfanrafeek.com"
 
-  homeInfoParams:
-    Title: ""
-    Content: ""
+# Top right navigation menu
+menu:
+  main:
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 10
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 20
